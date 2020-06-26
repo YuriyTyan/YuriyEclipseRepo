@@ -1,4 +1,4 @@
-package com.sytnax.class08;
+package com.syntax.class08;
 
 public class Homework {
 
