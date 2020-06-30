@@ -17,19 +17,17 @@ public class Homework2 {
 			System.out.println("Please enter any number from 1 to 20");
 			userInput = scan.nextInt();
 		} while (userInput == 17);
-		System.out.println("Congrats, you won!");
-		return;
+		{
+			System.out.println("Congrats, you won!");
+			return;
+		}
 	}
-
-	boolean workDay = true;
-	int day = 1;
-
-	while(winNum) {
-	if (userInput == 17) {
-		System.out.println("I need a day off");
-		day++;
-	} else {
-		System.out.println("Please try one more time");
-		workDay = false;
-	}
+		System.out.println("Please enter any number from 1 to 20");
+		userInput = scan.nextInt();
+		while (userInput != 17) {
+			System.out.println("Congrats, you won!");
+			{
+				System.out.println("Please try one more time");
+			}
+		}
 	}
