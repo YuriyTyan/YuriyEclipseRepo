@@ -23,33 +23,36 @@ public class Task {
 		for (int t1 : integers) {
 		total += t1	;
 		}
-		System.out.println("Sum of integers in the array is: " + total));
-		}
-			
-			
-		for (int t = 0; t < size; t++) {
-			total += integers[t];
-		}
 		System.out.println("Sum of integers in the array is: " + total);
-		
-		System.out.println("-----------------------------------");
-		
-		String[] countries = { "USA", "Germany", "Uzbekistan", "China", "Thailand" };
-		// Print all fruits different ways
-		// 1st way
-		for (String fruit : countries) {
-			System.out.print(fruit + ", ");
 		}
-		System.out.println();
-		// old way
-		for (int j = 0; j < countries.length; j++) {
-			if (countries[j].equals("Grapes")) {
-				System.out.println(countries[j] + " is my favorite fruit");
-			} else {
-				System.out.print(countries[j] + ", ");
-			}
-			
-			
+
+	for(
+
+	int t = 0;t<size;t++)
+	{
+		total += integers[t];
+	}System.out.println("Sum of integers in the array is: "+total);
+
+	System.out.println("-----------------------------------");
+
+	String[] countries = { "USA", "Germany", "Uzbekistan", "China", "Thailand" };
+	// Print all fruits different ways
+	// 1st way
+	for(
+	String fruit:countries)
+	{
+		System.out.print(fruit + ", ");
+	}System.out.println();
+	// old way
+	for(
+	int j = 0;j<countries.length;j++)
+	{
+		if (countries[j].equals("Grapes")) {
+			System.out.println(countries[j] + " is my favorite fruit");
+		} else {
+			System.out.print(countries[j] + ", ");
+		}
+
 	}
 
 }
