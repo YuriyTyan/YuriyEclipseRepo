@@ -11,8 +11,8 @@ public class AppleStore {
 		phone1.memory=256;
 		phone1.color="White";
 		phone1.price=1000;
-//		phone1.displayInfo(); --> possible, not preferred
-		iPhone.displayDetails();// preferred way
+//		phone1.displayDetails(); --> possible, not preferred
+		iPhone.displayInfo();// preferred way
 		
 		iPhone.touchScreen = false;
 		
@@ -22,8 +22,8 @@ public class AppleStore {
 		phone2.memory=64;
 		phone2.color="Pink";
 		phone2.price=900;
+		phone2.displayDetails();
 		iPhone.displayInfo();
-		iPhone.displayDetails();
 		
 		System.out.println("--- Calling info method again ---");
 		phone1.displayInfo();

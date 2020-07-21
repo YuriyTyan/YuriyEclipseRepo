@@ -21,7 +21,8 @@ public class Homework2 {
 			System.out.println("Congrats, you won!");
 			return;
 		}
-	}
+		System.out.println();
+		
 		System.out.println("Please enter any number from 1 to 20");
 		userInput = scan.nextInt();
 		while (userInput != 17) {
@@ -31,3 +32,4 @@ public class Homework2 {
 			}
 		}
 	}
+}
