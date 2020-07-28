@@ -9,7 +9,7 @@ public class InstanceVariables {
 		String name="Kristina";// local variable
 		System.out.println(name);
 		
-		//we create an Object or instanciate a class, or create an instance of the class --> InstanceVariables
+		//we create an Object or instantiate a class, or create an instance of the class --> InstanceVariables
 		InstanceVariables obj = new InstanceVariables();
 		obj.name="Jane";
 		System.out.println(obj.name);//Jane
